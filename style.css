@@ -53,7 +53,6 @@ p {
 .link-button {
     background-color: rgb(255, 81, 0);
     color: white;
-    border: 1px solid #fff;
     padding: 10px 30px;
     text-decoration: none;
     border-radius: 5px;
@@ -145,4 +144,115 @@ input[type=number] {
 
 .amber {
     background-color: cornflowerblue;
+}
+
+.contribution {
+    display: flex;
+    margin: 40px 70px;
+    justify-content: center;
+    padding: 40px 70px;
+}
+
+.contrib-img {
+    padding: 5px;
+
+}
+
+.contrib-img img {
+    width: 450px;
+    border: 1px solid #fff;
+    /* border-radius: 10px; */
+    padding: 7px;
+    height: 400px;
+    box-shadow: 0 3px 3px 1px #542;
+    border-top: 5px solid orangered;
+}
+
+.contrib-txt {
+    width: 50%;
+    margin-left: 80px
+}
+
+.contrib-txt h3 {
+    font-size: 35px;
+    margin-right: 200px;
+}
+
+.contrib-txt p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.get-update {
+    margin: 70px 80px;
+    text-align: center;
+
+}
+
+.update-down-section {
+    text-align: center;
+}
+
+.update-up-section h3 {
+    font-size: 35px;
+}
+
+input[type="email"] {
+    width: 30%;
+    padding: 13px 0px;
+    box-sizing: border-box;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: 1px solid #d9d9d9;
+    text-align: left;
+}
+
+input[type=email]::placeholder {
+    background-color: #D9D9D9;
+    padding: 14px 40px;
+    text-align: left;
+}
+
+.subscribe-btn {
+    background-color: orangered;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 13px;
+    margin-left: -5px;
+}
+
+.email-form {
+    background-color: #FFF4D6;
+    padding: 100px 0px;
+    margin: 10px 100px
+}
+
+.footer {
+    height: 150px;
+    background-color: burlywood;
+    color: white;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.footer h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding: 35px 40px;
+    text-align: center;
+    color: brown;
+}
+
+.footer p {
+    color: white;
+    margin-top: -50px;
+    padding: 0px 1px 20px 0px;
 }
